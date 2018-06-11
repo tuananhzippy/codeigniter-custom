@@ -28,4 +28,8 @@ class Welcome extends CI_Controller {
 			->set_data(array('more' => 'data', 'other' => 'data'))
 			->render('test', array('author' => 'Tuấn Anh Zippy - kieutuananh1995@gmail.com', 'now' => Carbon::now()));
 	}
+
+	public function test() {
+		echo 1;exit;
+	}
 }
